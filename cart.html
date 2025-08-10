@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCart - Cart</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Logo.jpg">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/Logo.jpg" alt="Logo" class="rounded-circle" style="width: 30px; height: 30px;">
+                <h4 class="ms-2 mb-0">SkyCart</h4>
+            </a>
+            <a href="index.html" class="btn btn-primary ms-auto">Continue Shopping</a>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h2>Your Shopping Cart</h2>
+        <div id="cart-items" class="row"></div>
+        <div class="text-end mt-4">
+            <h4>Total: <span id="cart-total">0.00</span></h4>
+            <button class="btn btn-success" onclick="checkout()">Checkout</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SkyCart. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

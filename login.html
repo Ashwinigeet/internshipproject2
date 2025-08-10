@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Login - SkyCart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background-color: #d8d0d0;
+            color: #fff; 
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            padding: 40px;
+        }
+
+        .form-signin {
+            width: 100%;
+            max-width: 330px;
+            padding: 15px;
+            margin: auto;
+            background-color: #1a1a1a; 
+            border: 4px solid #ffffff; 
+            border-radius: 25px;
+        }
+
+        .form-signin .form-floating:focus-within {
+            z-index: 2;
+        }
+
+        .form-signin input[type="email"],
+        .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-radius: 0.25rem;
+            background-color: #333; 
+            color: #fff; 
+            border: 1px solid #fff; 
+        }
+
+        .form-signin input[type="email"]::placeholder,
+        .form-signin input[type="password"]::placeholder {
+            color: #bbb; 
+        }
+
+        .form-signin img {
+            width: 72px;
+            margin-bottom: 20px;
+        }
+
+        .btn-dark {
+            background-color: #ffffff; 
+            color: black; 
+            border: none;
+            transition: 0.2s;
+        }
+
+        .btn-dark:hover {
+            background-color: #000000; 
+            color: rgb(255, 255, 255); 
+        }
+
+        .text-muted {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+
+</head>
+
+<body class="text-center">
+    <div class="form-signin">
+        <form>
+            <img class="rounded-circle" src="img/logo.jpg" alt="SkyCart Logo">
+            <h1 class="h3 mb-3 fw-normal">LOGIN IN</h1>
+
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+
+            </div>
+
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-dark" type="submit">Login Now</button>
+            <a href="index.html" class="w-100 btn btn-lg btn-light mt-2">Back to Home</a>
+            <p class="mt-5 mb-3 text-muted">&copy; 2024-2028</p>
+        </form>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    </script>
+</body>
+
+</html>

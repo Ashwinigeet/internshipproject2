@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCart - Your Online Store</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Logo.jpg">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/Logo.jpg" alt="Logo" class="rounded-circle" style="width: 30px; height: 30px;">
+                <h4 class="ms-2 mb-0">SkyCart</h4>
+            </a>
+            <form class="d-flex ms-auto" role="search">
+                <input class="form-control me-2 rounded-pill" type="search" placeholder="🔎 Search Your Product Here"
+                    aria-label="Search" id="searchInput">
+            </form>
+            <a href="login.html">
+                <button type="button" class="btn btn-primary login">
+                    Login
+                </button>
+            </a>
+            <a href="cart.html" class="btn btn-secondary ms-2">
+                <i class="bi bi-cart"></i> Cart <span id="cart-count">(0)</span>
+            </a>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row mt-4" id="product-list">
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SkyCart. All Rights Reserved.</p>
+            
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a><br>
+                <a href="returns.html">Return Policy</a>
+            
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

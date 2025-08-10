@@ -1,0 +1,83 @@
+
+.navbar .login {
+    border: black solid 1px;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.navbar .login:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #777;
+    font-size: 1rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    color: #6c757d;
+    border-top: 1px solid #dee2e6;
+}
+
+
+#cart-items {
+    padding: 20px;
+}
+
+#cart-items .img-fluid {
+    max-width: 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.d-flex button {
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    #cart-items .d-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #cart-items .d-flex button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
